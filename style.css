@@ -219,3 +219,13 @@ body{position:relative;isolation:isolate}#network{z-index:-1}.particles{z-index:
 
 /* More expressive, softly eased portrait tracking. */
 .portrait{transition:transform .65s cubic-bezier(.16,.7,.25,1);will-change:transform}
+
+
+/* Relay: real app screenshot in the portfolio's amber window frame. */
+.relay-project-preview{height:260px;padding:18px 20px 0;background:radial-gradient(ellipse at 85% 0%,#68462966,transparent 70%),#17130f;display:flex;flex-direction:column}
+.relay-preview-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;font:10px var(--mono);letter-spacing:1.5px;color:#d8b78c}
+.relay-preview-window{border:1px solid #84613e;border-radius:9px 9px 0 0;overflow:hidden;box-shadow:0 10px 32px #0008;flex:1;min-height:0}
+.relay-preview-bar{height:22px;background:#2a2119;display:flex;align-items:center;gap:5px;padding:0 10px}
+.relay-preview-bar i{width:5px;height:5px;border-radius:50%;background:#c28d58}.relay-preview-bar i:nth-child(2){background:#8c6b45}.relay-preview-bar i:nth-child(3){background:#5d503d}
+.relay-preview-bar span{margin:auto;font:8px var(--mono);letter-spacing:1px;color:#c8ae8d}
+.relay-project-preview img{display:block;width:100%;height:auto;object-fit:contain;object-position:top}
